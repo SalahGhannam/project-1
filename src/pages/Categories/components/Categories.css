@@ -1,0 +1,31 @@
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: -10px; 
+}
+
+.Categorie {
+    width: 300px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.Categorie:hover {
+    transform: translateY(15px); 
+    background-color: rgb(231, 239, 241);
+}
+
+.Categorie h2 {
+    font-size: 30px; 
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.Categorie img {
+    width: 80%; 
+    border-radius: 8px; 
+}
